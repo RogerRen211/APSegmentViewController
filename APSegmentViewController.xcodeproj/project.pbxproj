@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		48BCE8321B16118B0055EA27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BCE8311B16118B0055EA27 /* main.m */; };
 		48BCE8351B16118B0055EA27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BCE8341B16118B0055EA27 /* AppDelegate.m */; };
-		48BCE8381B16118B0055EA27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BCE8371B16118B0055EA27 /* ViewController.m */; };
+		48BCE8381B16118B0055EA27 /* APSegmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BCE8371B16118B0055EA27 /* APSegmentViewController.m */; };
 		48BCE83B1B16118B0055EA27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48BCE8391B16118B0055EA27 /* Main.storyboard */; };
 		48BCE83D1B16118B0055EA27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48BCE83C1B16118B0055EA27 /* Images.xcassets */; };
 		48BCE8401B16118B0055EA27 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48BCE83E1B16118B0055EA27 /* LaunchScreen.xib */; };
 		48BCE84C1B16118B0055EA27 /* APSegmentViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BCE84B1B16118B0055EA27 /* APSegmentViewControllerTests.m */; };
+		48BCE8571B161F570055EA27 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BCE8561B161F570055EA27 /* FirstViewController.m */; };
+		48BCE85A1B161F600055EA27 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BCE8591B161F600055EA27 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,18 @@
 		48BCE8311B16118B0055EA27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		48BCE8331B16118B0055EA27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		48BCE8341B16118B0055EA27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		48BCE8361B16118B0055EA27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		48BCE8371B16118B0055EA27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		48BCE8361B16118B0055EA27 /* APSegmentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APSegmentViewController.h; sourceTree = "<group>"; };
+		48BCE8371B16118B0055EA27 /* APSegmentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APSegmentViewController.m; sourceTree = "<group>"; };
 		48BCE83A1B16118B0055EA27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48BCE83C1B16118B0055EA27 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		48BCE83F1B16118B0055EA27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		48BCE8451B16118B0055EA27 /* APSegmentViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APSegmentViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48BCE84A1B16118B0055EA27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48BCE84B1B16118B0055EA27 /* APSegmentViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APSegmentViewControllerTests.m; sourceTree = "<group>"; };
+		48BCE8551B161F570055EA27 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		48BCE8561B161F570055EA27 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		48BCE8581B161F600055EA27 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		48BCE8591B161F600055EA27 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +89,16 @@
 			children = (
 				48BCE8331B16118B0055EA27 /* AppDelegate.h */,
 				48BCE8341B16118B0055EA27 /* AppDelegate.m */,
-				48BCE8361B16118B0055EA27 /* ViewController.h */,
-				48BCE8371B16118B0055EA27 /* ViewController.m */,
+				48BCE8361B16118B0055EA27 /* APSegmentViewController.h */,
+				48BCE8371B16118B0055EA27 /* APSegmentViewController.m */,
 				48BCE8391B16118B0055EA27 /* Main.storyboard */,
 				48BCE83C1B16118B0055EA27 /* Images.xcassets */,
 				48BCE83E1B16118B0055EA27 /* LaunchScreen.xib */,
 				48BCE82F1B16118B0055EA27 /* Supporting Files */,
+				48BCE8551B161F570055EA27 /* FirstViewController.h */,
+				48BCE8561B161F570055EA27 /* FirstViewController.m */,
+				48BCE8581B161F600055EA27 /* SecondViewController.h */,
+				48BCE8591B161F600055EA27 /* SecondViewController.m */,
 			);
 			path = APSegmentViewController;
 			sourceTree = "<group>";
@@ -219,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48BCE8381B16118B0055EA27 /* ViewController.m in Sources */,
+				48BCE85A1B161F600055EA27 /* SecondViewController.m in Sources */,
+				48BCE8381B16118B0055EA27 /* APSegmentViewController.m in Sources */,
 				48BCE8351B16118B0055EA27 /* AppDelegate.m in Sources */,
 				48BCE8321B16118B0055EA27 /* main.m in Sources */,
+				48BCE8571B161F570055EA27 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
